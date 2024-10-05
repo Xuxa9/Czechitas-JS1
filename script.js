@@ -10,3 +10,9 @@ let prijem2 = 0.60 * prijem + studenti * listek65 *15
 
 document.body.innerHTML +=  "Příjem divadla se studenty: " + prijem2 + " Kč" + "</p>"
 
+// Hazeni kostkou
+
+let nahodnacisla = (Math.floor ((Math.random (0-1) * 10))) + 1
+let hodKostkou = Math.ceil(nahodnacisla / (10/6))
+
+document.body.innerHTML += hodKostkou
